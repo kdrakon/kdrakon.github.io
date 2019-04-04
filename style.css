@@ -49,9 +49,49 @@ article {
     margin: 3em 10em 3em 10em;
 }
 
+div.showcase {
+    background-color: #f8f8f8;
+    padding: 1em 3em 1em 3em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:before {
+    content: '—';
+    width: 1em;
+    padding-right: 0.25em;
+    display: inline-block;
+}
+
+ul.showcase {
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+ul.showcase li:before {
+    content: '▶︎';
+    width: 1em;
+    padding-right: 0.25em;
+    display: inline-block;
+}
+
 img.icon {
     max-height: 3em;
+    max-width: 3em;
     margin: 0 1em 0 0;
+    filter: grayscale(100%);
+    vertical-align: middle;
+}
+
+img.icon.large {
+    max-height: 4em;
+    max-width: 6em;
+    margin-left: 1em;
 }
 
 div.copyright {
