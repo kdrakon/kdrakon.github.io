@@ -25,14 +25,14 @@ img.profile-image {
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 4em;
     font-weight: bold;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.05em;
     margin: 0 0 0 100px;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: lighter;
     letter-spacing: -0.06em;
     width: 50%;
@@ -41,18 +41,35 @@ h2 {
 
 article {
     font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    line-height: 150%;
+    font-weight: normal;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     grid-column-gap: 2em;
-    margin: 3em 10em 3em 10em;
+    margin: 3rem 10rem 3rem 10rem;
+}
+
+@media (max-width: 1000px) {
+    article {
+        font-size: 3em;
+        margin: 1rem 1rem 1rem 3rem;
+    }
+}
+
+p.opening {
+    font-size: 1.25em;
+    font-weight: lighter;
 }
 
 div.showcase {
     background-color: #f8f8f8;
     padding: 1em 3em 1em 3em;
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    div.showcase {
+        padding: 1em 1em 1em 0em;
+    }
 }
 
 ul {
@@ -70,7 +87,7 @@ ul.showcase {
     text-align: left;
     font-family: 'Noto Sans', sans-serif;
     font-weight: lighter;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 ul.showcase li:before {
@@ -78,6 +95,15 @@ ul.showcase li:before {
     width: 1em;
     padding-right: 0.25em;
     display: inline-block;
+}
+
+@media (max-width: 1000px) {
+    ul.showcase {
+        font-size: 0.4em;
+    }
+    ul.showcase li:before {
+        width: 0.4em;
+    }
 }
 
 img.icon {
@@ -92,10 +118,22 @@ img.icon.large {
     max-height: 4em;
     max-width: 6em;
     margin-left: 1em;
+    margin-top: 1em;
+}
+
+img.icon.bordered {
+    border-style: solid;
+    border-width: 1px;
 }
 
 div.copyright {
     font-size: 0.75em;
     font-weight: lighter;
     margin: 1em 0 0 0;
+}
+
+@media (max-width: 1000px) {
+    header, footer {
+        font-size: 1.5em;
+    }
 }
