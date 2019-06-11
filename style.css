@@ -18,6 +18,12 @@ header, footer {
     box-shadow: -1px 2px 5px #333;
 }
 
+@media (max-width: 1000px) {
+    header, footer {
+        font-size: 1.5em;
+    }
+}
+
 img.profile-image {
     max-height: 14em;
     border-radius: 50%;
@@ -28,15 +34,15 @@ h1 {
     font-size: 4em;
     font-weight: bold;
     letter-spacing: -0.05em;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 1em;
 }
 
 h2 {
     font-size: 2em;
     font-weight: lighter;
     letter-spacing: -0.06em;
-    width: 50%;
-    margin: 0 0 0 100px;
+    width: 75%;
+    margin: 0 0 0 2em;
 }
 
 article {
@@ -102,7 +108,7 @@ ul.showcase li:before {
         font-size: 0.4em;
     }
     ul.showcase li:before {
-        width: 0.4em;
+        width: 0.6em;
     }
 }
 
@@ -130,10 +136,4 @@ div.copyright {
     font-size: 0.75em;
     font-weight: lighter;
     margin: 1em 0 0 0;
-}
-
-@media (max-width: 1000px) {
-    header, footer {
-        font-size: 1.5em;
-    }
 }
