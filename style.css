@@ -108,7 +108,8 @@ ul.showcase li:before {
         font-size: 0.4em;
     }
     ul.showcase li:before {
-        width: 0.6em;
+        width: 0.8em;
+        font-size: 2em;
     }
 }
 
