@@ -5,6 +5,7 @@
     <meta name="description" content="Personal Webpage for Sean Policarpio"/>
     <title>Sean Policarpio - Software Developer</title>
 
+    <!-- Google Analytics -->
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -16,10 +17,12 @@
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
         ga('create', 'UA-23459517-3', 'auto');
         ga('send', 'pageview');
     </script>
+    <!-- End Google Analytics -->
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans:300,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -30,7 +33,7 @@
 <header>
     <img class="profile-image" src="images/profile2.jpg" alt="Picture of Sean"/>
     <h1>Sean Policarpio</h1>
-    <h2>Software developer, among other things</h2>
+    <h2><em>software developer, among other things</em></h2>
 </header>
 
 <article>
@@ -45,8 +48,8 @@
             The following are the languages and technologies I'm enjoying developing with the most right now:
 
         <div class="showcase">
-            <img alt="Rust Programming Language" class="icon large" src="images/rust-logo-128x128-blk.png"/>
             <img alt="Scala Programming Language" class="icon large" src="images/Scala_logo.png"/>
+            <img alt="Rust Programming Language" class="icon large" src="images/rust-logo-128x128-blk.png"/>
             <img alt="Java Programming Language" class="icon large" src="images/java_logo.png"/>
 
             <div>
@@ -63,15 +66,19 @@
         <h3>Some stuff I do and some stuff I did</h3>
 
         <p class="opening">
-            Currently, I am a Senior Backend Developer at <a href="http://clearscore.com.au">ClearScore</a>. Although it was an already
-            established company overseas, I'm part of the team that is tasked with bringing their product to Australia. We are building
+            Currently, I am a lead software engineer at <a href="https://limepay.com.au">Limepay</a>. Born out of the "buy-now-pay-later" boom,
+            Limepay evolved as a fintech to become more than just another "BNPL". We are building things using Scala, zio, cats, http4s, tapir/sttp,
+            and Google Cloud Platform, just to name a few.
+        <p>
+            In 2019, I was a Senior Backend Developer at <a href="https://clearscore.com.au">ClearScore</a>. Although it was an already
+            established company overseas, I was part of the team that was tasked with bringing their product to Australia in 2020. We built
             a bunch of services in Scala using things like http4s, cats, Monix, and doobie.
         <p>
-            Previously, I was a Principal Consultant at <a href="http://simplemachines.com.au">Simple Machines</a>. As a
+            Previously, I was a Principal Consultant at <a href="https://simplemachines.com.au">Simple Machines</a>. As a
             consultant and software developer, I worked with and utilised the best technologies that will helped clients solve
             the problems they presented to us. The majority of those solutions involved Scala, Apache Kafka, and the use of AWS resources.
         <p>
-            Prior to this, I was a Platform Software Engineer at <a href="http://bibliocommons.com">BiblioCommons</a>. I
+            Prior to this, I was a Platform Software Engineer at <a href="https://bibliocommons.com">BiblioCommons</a>. I
             did stuff with Java &mdash; mainly building and maintaining a SaaS, Web applications, and Servlet-based
             software with a mix of other Java-ish stuff.
         <p>
@@ -79,28 +86,31 @@
             handle a much higher throughput of users and interactions. I designed and built the entire system using
             Scala and Akka.
         <p>
-            Before that, I was a postdoc at the <a href="http://www.nuigalway.ie/">National University of Ireland</a>,
+            Before that, I was a postdoc at the <a href="https://www.nuigalway.ie/">National University of Ireland</a>,
             Galway where I also did stuff with Java (Hadoop, Mahout, Storm, Jetty, OpenRDF).
         <p>
             And before that, I studied and researched applications of logic programming &mdash; specifically <a
-                href="http://en.wikipedia.org/wiki/Answer_set_programming">answer set programming</a> &mdash; in
+                href="https://en.wikipedia.org/wiki/Answer_set_programming">answer set programming</a> &mdash; in
             conjunction with theories in access control and information security (in particular with XML documents).
         <p>
             Want to know more? Check out my <a href="http://www.linkedin.com/in/seanpolicarpio">LinkedIn</a> profile.
 
         <div class="showcase">
-            <img class="icon large bordered" alt="ClearScore" src="images/clearscore_logo.png"/>
-            <img class="icon large bordered" alt="Simple Machines" src="images/simplemachines.png"/>
-            <img class="icon large bordered" alt="Bibliocommons" src="images/bibliocommons.png"/>
-            <img class="icon large bordered" alt="Doubleplay" src="images/doubleplay.png"/>
-            <img class="icon large bordered" alt="DERI" src="images/deri.png"/>
+            <img class="icon large bordered" title="Limepay" alt="Limepay" src="images/limepay.png"/>
+            <img class="icon large bordered" title="ClearScore" alt="ClearScore" src="images/clearscore_logo.png"/>
+            <img class="icon large bordered" title="Simple Machines" alt="Simple Machines" src="images/simplemachines.png"/>
+            <img class="icon large bordered" title="Bibliocommons" alt="Bibliocommons" src="images/bibliocommons.png"/>
+            <img class="icon large bordered" title="Doubleplay" alt="Doubleplay" src="images/doubleplay.png"/>
+            <img class="icon large bordered" title="DERI" alt="DERI" src="images/deri.png"/>
         </div>
     </section>
 
     <section>
-        <h3>Sometimes I write stuff other than just code</h3>
+        <h3>Sometimes I write stuff</h3>
         <div class="showcase">
             <ul class="showcase">
+                <li>
+                    <a href="https://dev.to/kdrakon">My dev.to posts</a>
                 <li>
                     <a href="https://medium.com/@nothergeek/going-beyond-the-de-facto-software-oriented-curriculum-fa0f1de5ca34">Going
                         beyond the de facto software-oriented curriculum</a>
@@ -110,14 +120,14 @@
                     Actor-based User Similarity Recommender: An Experiment with the Akka Toolkit</a>
                 <li><a href="https://medium.com/@nothergeek/what-we-fear-43dec414084c">What we fear: An opinion on why some
                     software developers don't like the "Everyone Should Learn to Code" philosophy</a>
-                <li><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-39666-3_23">StreamRule: A Nonmonotonic
+                <li><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-39666-3_23">StreamRule: A Nonmonotonic
                     Stream Reasoning System for the Semantic Web</a>
                 <li><a href="https://sites.google.com/site/aimwd12/">Implementation of a SPARQL Integrated Recommendation
                     Engine for Linked Data with Hybrid Capabilities</a>
-                <li><a href="http://www.igi-global.com/article/formal-language-xml-authorisations-based/52594">A Formal
+                <li><a href="https://www.igi-global.com/article/formal-language-xml-authorisations-based/52594">A Formal
                     Language for XML Authorisations Based on Answer Set Programming and Temporal Interval Logic
                     Constraints</a>
-                <li><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-16342-5_32">A Formal Language for
+                <li><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-16342-5_32">A Formal Language for
                     Specifying Complex XML Authorisations with Temporal Constraints</a>
             </ul>
         </div>
@@ -150,11 +160,7 @@
 </article>
 
 <footer>
-    <a href="https://github.com/kdrakon"><img class="icon" src="images/GitHub-Mark-Light-120px-plus.png"/></a>
-    <a href="https://twitter.com/nothergeek"><img class="icon" src="images/Twitter_Logo_WhiteOnImage-310x310.png"/></a>
-    <a href="http://www.linkedin.com/in/seanpolicarpio"><img class="icon" src="images/In-White-54px-R.png"/></a>
-    <a href="https://medium.com/@nothergeek"><img class="icon" src="images/medium.png"/></a>
-    <div class="copyright">© 2020 Sean Policarpio</div>
+    <div class="copyright">© 2021 Sean Policarpio</div>
 </footer>
 
 </body>
