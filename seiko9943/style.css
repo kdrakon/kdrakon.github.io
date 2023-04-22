@@ -1,3 +1,17 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-column-gap: 2em;
+    justify-content: center;
+}
+
+main {
+    max-width: 1024px;
+}
+
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +21,7 @@
 }
 
 .image-gallery > li {
-    flex-basis: 550px; /* width: 350px; */
+    flex-basis: 450px;
 }
 
 .image-gallery li figure img {
@@ -21,4 +35,9 @@
 .image-gallery::after {
     content: "";
     flex-basis: 350px;
+}
+
+figcaption {
+    padding-top: 1em;
+    font-size: 0.8em;
 }
