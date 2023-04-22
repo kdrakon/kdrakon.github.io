@@ -14,8 +14,9 @@ main {
 
 .image-gallery {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: normal;
     gap: 1px;
     list-style-type: none;
 }
