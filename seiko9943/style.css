@@ -1,7 +1,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 2em;
 
     display: grid;
     grid-column-gap: 2em;
