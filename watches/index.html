@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Vintage Watches"/>
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Vintage Watches"/>
+    <meta property="og:image" content="https://policarp.io/seiko9943/IMG_20230422_093019.jpg"/>
+    <meta property="og:image:alt" content="A picture of my 9943-8000"/>
+    <meta property="og:description" content="My Seiko Grand Quartz 9943-8000"/>
+
+    <title>Vintage Watches</title>
+    <link rel="icon" type="image/x-icon" href="9943.png">
+
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+
+    <script type="module">
+        import Lightbox from './photoswipe/photoswipe-lightbox.esm.js';
+
+        const lightbox = new Lightbox({
+            gallery: '#gallery--getting-started',
+            children: 'a',
+            pswpModule: () => import('./photoswipe/photoswipe.esm.js'),
+
+            arrowPrev: false,
+            arrowNext: false,
+            zoom: false,
+            close: false,
+            counter: false
+        });
+        lightbox.init();
+    </script>
+</head>
+
+<body>
+<header>
+    <h1>Vintage Watches</h1>
+</header>
+
+<main>
+
+    <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started">
+        <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
+           data-pswp-width="1669"
+           data-pswp-height="2500"
+           target="_blank">
+            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/>
+        </a>
+
+        <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
+           data-pswp-width="1669"
+           data-pswp-height="2500"
+           target="_blank">
+            <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/>
+        </a>
+    </div>
+
+
+</main>
+</body>
+</html>
