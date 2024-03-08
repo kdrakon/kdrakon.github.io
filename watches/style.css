@@ -11,6 +11,10 @@ main {
     margin-left: 10%;
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -47,5 +51,9 @@ h3 {
 }
 
 img.thumbnail {
+    max-height: 20rem;
+}
+
+video {
     max-height: 20rem;
 }
