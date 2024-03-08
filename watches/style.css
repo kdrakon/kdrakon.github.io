@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    justify-content: center;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: -0.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: lighter;
+    letter-spacing: -0.15rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    /*letter-spacing: -0.15rem;*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img.thumbnail {
+    max-height: 20rem;
+}
