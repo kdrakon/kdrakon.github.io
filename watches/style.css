@@ -9,10 +9,11 @@ body {
 main {
     justify-content: center;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 a {
@@ -43,17 +44,22 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: lighter;
     /*letter-spacing: -0.15rem;*/
     margin-top: 0;
     margin-bottom: 0;
 }
 
-img.thumbnail {
+.thumbnail {
+    object-fit: cover;
     max-height: 20rem;
 }
 
-video {
-    max-height: 20rem;
+@media (max-width: 1000px) and (orientation: portrait) {
+    .thumbnail {
+        object-fit: cover;
+        max-height: 20rem;
+        max-width: 70%;
+    }
 }
