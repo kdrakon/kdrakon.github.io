@@ -3,7 +3,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 1em;
 }
 
 main {
@@ -38,28 +38,29 @@ h1 {
 h2 {
     font-size: 2.0rem;
     font-weight: lighter;
-    letter-spacing: -0.15rem;
+    letter-spacing: -0.10rem;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h3 {
-    font-size: 1.25rem;
-    font-weight: lighter;
-    /*letter-spacing: -0.15rem;*/
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: -0.05rem;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .thumbnail {
     object-fit: cover;
-    max-height: 20rem;
+    height: 20rem;
+    width: 20rem;
 }
 
 @media (max-width: 1000px) and (orientation: portrait) {
     .thumbnail {
         object-fit: cover;
-        max-height: 20rem;
-        max-width: 70%;
+        height: 10rem;
+        width: 10rem;
     }
 }
